@@ -142,18 +142,7 @@ var username = [
     });
     }
 
-    // // attente de chargement des données
-    // setTimeout(function(){
-            
-    //         var table = document.getElementById('getTab');
-    //         // var span = document.createElement('span');
-    //         // span.setAttribute("id","chargement");
-    //         // table.append(span)
-
-    // }, 1500 )
-   
-
-        // Insertion des name des diff input field dans le tableau du collapse
+      // Insertion des name des diff input field dans le tableau du collapse
         setTimeout(function(){
             var table = document.getElementById('getTab');
             var span = document.getElementById('load');
@@ -239,6 +228,7 @@ chrome.runtime.onMessage.addListener(function (request) {
             if(lphrase >= min && lphrase <= max ){
                 return phrase;
             }else{
+                // Si l'input à un des deux définit
                 if(lphrase < min ){
                     if(type === "number"){
                         console.log('jjj')
@@ -260,27 +250,6 @@ chrome.runtime.onMessage.addListener(function (request) {
             }
 
 
-        }
-
-        // Input a 1 seul définies. (min)
-        if(min != -1 && max === -1){        
-            if(lphrase < min){
-                    phrase = completeString(phrase,nbrMin);
-                    return phrase;
-            }else{
-                return phrase
-            }
-        }
-
-        
-       // Input a 1 seul définies. (max)
-        if(min === -1 && max != -1){        
-            if(lphrase > max){
-                    phrase = remove_lasts_character(phrase,nbrMax);
-                    return phrase;
-            }else{
-                return phrase
-            }
         }
     }
      
