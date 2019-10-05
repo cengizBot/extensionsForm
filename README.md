@@ -14,6 +14,8 @@ Important: L'extension récupère le premier forme trouvée sur votre DOM, si vo
 
 2 : Button Generate: Va analyser votre formulaire en récupère tous les champs disponibles et les compléter
 
+3 : Button info vous indique les tableaux de fausses données que vous disposer
+
 Fonctionnement:
 
 L'extension dispose de différent tableau de jeu de données fake 
