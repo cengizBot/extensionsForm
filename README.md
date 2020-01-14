@@ -2,7 +2,7 @@
 
 Voici le prototype, Extensions n'ont fini.
 
-Le but de cette extension est de gagner du temps et d'avoir de meilleur fake data pour les formulaires.
+Le but de cette extension est de gagner du temps sur l'insertion de données d'un formulaire.
 
 ![Capture](https://user-images.githubusercontent.com/55709173/66256937-83442200-e793-11e9-8cf4-68feaa1b4d3c.PNG)
 
